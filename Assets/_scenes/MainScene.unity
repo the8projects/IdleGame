@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -194,7 +195,8 @@ MonoBehaviour:
 
     Add: 6% Growth/sec
 
-    Atk: 80  CD: 1 sec'
+    Atk: 80  CD:
+    1 sec'
 --- !u!222 &16304454
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2390,7 +2392,8 @@ MonoBehaviour:
 
     Add: 8.5% Growth/sec
 
-    Atk: 500  CD: 1 sec'
+    Atk: 500  CD:
+    1 sec'
 --- !u!222 &277395926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2473,7 +2476,8 @@ MonoBehaviour:
 
     Add: 4% Growth/sec
 
-    Atk: 25  CD: 1.25 sec'
+    Atk: 25  CD: 1.25
+    sec'
 --- !u!222 &294097898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2712,7 +2716,8 @@ MonoBehaviour:
 
     Add: 7% Growth/sec
 
-    Atk: 150  CD: 0.75 sec'
+    Atk: 150  CD: 0.75
+    sec'
 --- !u!222 &304507429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3837,7 +3842,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 568
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3861,7 +3866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 320, y: 568, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6970,7 +6975,8 @@ MonoBehaviour:
 
     Add: 9% Growth/sec
 
-    Atk: 800  CD: 0.9 sec'
+    Atk: 800  CD: 0.9
+    sec'
 --- !u!222 &1055246040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8411,7 +8417,8 @@ MonoBehaviour:
 
     Add: 8% Growth/sec
 
-    Atk: 200  CD: 0.5 sec'
+    Atk: 200  CD:
+    0.5 sec'
 --- !u!222 &1238675611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12861,7 +12868,8 @@ MonoBehaviour:
 
     Add: 3% Growth/sec
 
-    Atk: 10  CD: 1 sec'
+    Atk: 10  CD: 1
+    sec'
 --- !u!222 &1770365037
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13889,7 +13897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: 568}
+  m_AnchoredPosition: {x: 455, y: 169}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905655843
